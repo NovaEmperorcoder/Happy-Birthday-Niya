@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<body class = "kit">
+
+<h1 class="wed3">THE CAT PAGE</h1>
+
+<h2 class="catwhite"> 
+<ol> 
+ <li> Sox - The real OG </li>
+ <li> Niko - RIP my boy will be remember </li> 
+ <li> Sinnamun - The cutest cat on the block </li>
+ <li> Saber - The second cutest cat on the block and the nicest brother</li> 
+</ol>
+</h2>   
+
+<h2 class="catblack"> 
+ <a href="third.html"> NEXT PAGE </a>
+</h2>  
+
+<div class="supercat" style="max-width:500px">
+  
+   <img class="mySlides" src="https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.5&permmsgid=msg- f:1791657205113356263&th=18dd3ebc460cffe7&view=att&disp=safe" style="width:100%"  >
+   <img class="mySlides" src="https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.1&permmsgid=msg-f:1791645291385733495&th=18dd33e6648c4177&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ_7ehXS0g2XILQDYGON5HbUVvZ2kmP91w05t-hBKkmuR08x8vWd1kgY2IBrEGLTaE93eVT8SQ5QY9FmjbtKf9J3-irMIfZzqXgTFciiGARVmMHMc7C3yxqUI6U&disp=emb" style="width:100%">
+  
+    <img class="mySlides" src="https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.7&permmsgid=msg-f:1791657205113356263&th=18dd3ebc460cffe7&view=att&disp=safe" style="width:100%">
+   <img class="mySlides" src=" https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.9&permmsgid=msg-f:1791657205113356263&th=18dd3ebc460cffe7&view=att&disp=safe " style="width:100%">
+  <img class="mySlides" src= " https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.1&permmsgid=msg-f:1791847301847246303&th=18ddeba09e58e5df&view=att&disp=safe  " style="width:100%">
+  <img class="mySlides" src= " https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.3&permmsgid=msg-f:1791847301847246303&th=18ddeba09e58e5df&view=att&disp=safe " style="width:100%">
+  <img class="mySlides" src= " https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.5&permmsgid=msg-f:1791847301847246303&th=18ddeba09e58e5df&view=att&disp=safe " style="width:100%">
+  <img class="mySlides" src= " https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.7&permmsgid=msg-f:1791847301847246303&th=18ddeba09e58e5df&view=att&disp=safe " style="width:100%">
+  <img class="mySlides" src= " https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.9&permmsgid=msg-f:1791847301847246303&th=18ddeba09e58e5df&view=att&disp=safe " style="width:100%">
+  <img class="mySlides" src= " https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.11&permmsgid=msg-f:1791847301847246303&th=18ddeba09e58e5df&view=att&disp=safe " style="width:100%">
+  <img class="mySlides" src= " https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.13&permmsgid=msg-f:1791847301847246303&th=18ddeba09e58e5df&view=att&disp=safe " style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
