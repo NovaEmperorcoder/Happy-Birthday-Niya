@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+   
+  </head>
+<body class ="bookbod" >
+
+<h1 class="book"> Books </h1>
+ <h2 class = "baak"> 
+ <a href ="sixth.html"> Next page </a>
+ </h2>
+
+  <div class="w3-content" style=" width: 400px; height: 300;" >
+    <img class="mySlides w3-animate-top" src="https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.1&permmsgid=msg-f:1791896250646956135&th=18de1825662a8867&view=att&disp=safe" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.3&permmsgid=msg-f:1791896250646956135&th=18de1825662a8867&view=att&disp=safe" style="width:100%">
+    <img class="mySlides w3-animate-top" src="https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.5&permmsgid=msg-f:1791896250646956135&th=18de1825662a8867&view=att&disp=safe" style="width:100%">
+    <img class="mySlides w3-animate-bottom" src="https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.7&permmsgid=msg-f:1791896250646956135&th=18de1825662a8867&view=att&disp=safe" style="width:100%">
+<img class="mySlides animate-top" src="https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.9&permmsgid=msg-f:1791896250646956135&th=18de1825662a8867&view=att&disp=safe" style="width:100%">
+<img class="mySlides w3-animate-bottom" src="https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.11&permmsgid=msg-f:1791896250646956135&th=18de1825662a8867&view=att&disp=safe" style="width:100%">
+<img class="mySlides w3-animate-top" src="https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.13&permmsgid=msg-f:1791896250646956135&th=18de1825662a8867&view=att&disp=safe" style="width:100%">
+<img class="mySlides w3-animate-bottom" src="https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.15&permmsgid=msg-f:1791896250646956135&th=18de1825662a8867&view=att&disp=safe" style="width:100%">
+<img class="mySlides w3-animate-bottom" src="https://mail.google.com/mail/u/0?ui=2&ik=0964517e08&attid=0.17&permmsgid=msg-f:1791896250646956135&th=18de1825662a8867&view=att&disp=safe" style="width:100%">
+   </div>
+
+  
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2500);    
+    }
+  </script>
+</body>
+</html>
